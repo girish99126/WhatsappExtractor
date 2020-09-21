@@ -14,3 +14,6 @@ pip install emoji
 pip install numpy
 
 ```
+
+### In App.py you need to add your file name at 
+### 59 line "conversationPath = ''  # Name of the chat file"
