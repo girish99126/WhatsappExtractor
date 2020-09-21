@@ -56,7 +56,7 @@ def getDataPoint(line):
 
 parsedData = []  # List to keep track of data so it can be used by a Pandas dataframe
 # Upload your file here
-conversationPath = 'cse6.txt'  # chat file
+conversationPath = ''  # Name of the chat file
 with open(conversationPath, encoding="utf-8") as fp:
    fp.readline()  # Skipping first line of the file because contains information related to something about end-to-end encryption
    messageBuffer = []
