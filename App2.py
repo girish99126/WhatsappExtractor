@@ -80,7 +80,7 @@ def extractData(line):
 
 parsedData = []
 #fie name
-chat = 'cse6.txt'  # chat file
+chat = ''  # chat file
 with open(chat, encoding="utf-8") as fp:
    fp.readline()  # Skipping first line of the file because contains information related to something about end-to-end encryption
    messageBuffer = []
